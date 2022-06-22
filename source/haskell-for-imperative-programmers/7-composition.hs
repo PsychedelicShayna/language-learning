@@ -1,3 +1,13 @@
+-- Ignore certain lints, as this code is educational, and not an actual
+-- implementation of any problem, where the optimal way of doing something
+-- might go against the point of exploring the language, and what can be
+-- written with it.
+
+{-# OPTIONS_GHC -Wno-unrecognised-pragmas #-}
+{-# HLINT ignore "Avoid lambda" #-}
+{-# HLINT ignore "Eta reduce" #-}
+{-# HLINT ignore "Redundant lambda" #-}
+
 import Data.List (sort)
 
 -- Function composition can be used to compose new functions out of
@@ -18,7 +28,7 @@ descSortComposed  :: ([Int] -> [Int])
 descSortComposed = reverse . sort
 
 descSortCurrying :: ([Int] -> [Int])
-descSortCurrying = (\xs -> reverse (sort xs))
+descSortCurrying = \xs -> reverse (sort xs)
 
 descSortVanilla :: [Int] -> [Int]
 descSortVanilla xs = reverse (sort xs)
@@ -63,6 +73,6 @@ map2DComposedTest = map2DComposed (+ 1) [[1,2,3,4], [1,2,3,4]]
 
 -- For example: 
 
-withoutDollar xs = map(\x -> x + 1) (filter (\x -> x > 1) xs)
+withoutDollar xs = map(+ 1) (filter (> 1) xs)
 
-withDollar xs = map(\x -> x + 1) $ filter (\x -> x > 1) xs
+withDollar xs = map(+ 1) $ filter (> 1) xs

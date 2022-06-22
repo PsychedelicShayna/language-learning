@@ -55,13 +55,3 @@ filterOutOdds xs = filter (\e -> even e) xs
 
 sumIntList :: [Int] -> Int
 sumIntList xs = foldr (+) 0 xs
-
-
-
-
-
-
-
-
-
-
