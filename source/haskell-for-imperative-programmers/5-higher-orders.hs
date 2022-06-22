@@ -26,7 +26,7 @@ add1Lambda :: Int -> Int
 add1Lambda = (\x -> x + 1)
 
 
--- A built-in anonymous function "map", which works like it does in Python and
+-- A built-in higher order function "map", which works like it does in Python and
 -- other languages that support functional programming concepts. It allows you
 -- to run each element of a list through a lambda, returning a new list with 
 -- eache lement mapepd to the return value when passed through the lambda.
