@@ -1,6 +1,6 @@
 module Accumulate (accumulate1, accumulate2, accumulate3) where
 
-{-
+{- https://exercism.org/tracks/haskell/exercises/accumulate
 
 Instructions
   Implement the accumulate operation, which, given a collection 
