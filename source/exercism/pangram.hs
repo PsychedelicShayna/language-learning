@@ -17,4 +17,6 @@ import Data.Char (toLower)
 -}
 
 isPangram :: String -> Bool
-isPangram s = all(`elem` map toLower s) ['a'..'z']
+isPangram s = all (`elem` map toLower s) ['a'..'z']
+
+
