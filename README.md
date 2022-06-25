@@ -6,13 +6,12 @@ The [haskell-for-imperative-programmers](/source/haskell-for-imperative-programm
 
 ## Useful Resources 
 _This list might expand in the future_
-* [**Hoogle** _(Google, but for Haskell snippets)_](https://hoogle.haskell.org/)
+* [**Hoogle** _(Google, but for Haskell)_](https://hoogle.haskell.org/)
 * [**Haskell Standard Library** _(aka base, prelude_)](https://hackage.haskell.org/package/base)
 * [**Hackage - The Haskell Package Repository**](https://hackage.haskell.org/)
 * [**Haskell Online Playground** (REPL)](https://play-haskell.tomsmeding.com/play)
 * [**Haskell For Imperative Programmers**](https://www.youtube.com/watch?v=Vgu82wiiZ90&list=PLe7Ei6viL6jGp1Rfu0dil1JH1SHk9bgDV&index=2)
 * [**Learn You a Haskell!** _(Free Book)_](http://learnyouahaskell.com/chapters)
-
 * [**Haskell for C Programmers**](https://wiki.haskell.org/Haskell_Tutorial_for_C_Programmers)
 
 
