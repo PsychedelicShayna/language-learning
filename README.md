@@ -23,6 +23,7 @@ The [haskell-for-imperative-programmers](/source/haskell-for-imperative-programm
 * [**Functional Programming in Haskell**](https://www.youtube.com/watch?v=a0fPHkzK36I&list=PLF1Z-APd9zK7usPMx3LGMZEHrECUGodd3)
 * [**Advanced Functional Programming in Haskell**](https://www.youtube.com/watch?v=-qhbNGghVfc&list=PLF1Z-APd9zK5uFc8FKr_di9bfsYv8-lbc)
 * [**Category Theory** _(Not necessary, but insightful)_](https://www.youtube.com/watch?v=I8LbkfSSR58&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_)
+* [**What is IO Monad?**](https://www.youtube.com/watch?v=fCoQb-zqYDI)
 
 ## Installing Haskell (Windows)
 This PowerShell script almost takes all the fun out of it. It installs GHC, GHCi, GHCup, Cabal, and everything else you could possibly need to work with Haskell, sourced from the [GHCup website](https://www.haskell.org/ghcup/install/)
