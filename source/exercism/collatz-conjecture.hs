@@ -17,12 +17,16 @@ module CollatzConjecture (collatz) where
 collatz :: Integer -> Maybe Integer
 collatz x
   | x <= 0 = Nothing
-  | otherwise = Just $ countSteps (fromInteger x) 0
+  | otherwise = Just $ countSteps x 0
     where
       countSteps y acc
-        | y == 1 = acc
-        | even (floor y) = countSteps (y / 2)       (acc + 1)
-        | otherwise      = countSteps ((y * 3) + 1) (acc + 1)
+        | y == 1    = acc
+        | even y    = countSteps (y `div` 2)   (acc + 1)
+        | otherwise = countSteps ((y * 3) + 1) (acc + 1)
 
-
-
+collatz2 :: Integer -> Maybe Integer
+collatz2 x
+  | x <= 0 = Nothing
+  | otherwise = Just $ toInteger $ length $
+      takeWhile (/= 1) (iterate (\x -> if even x then x `div` 2
+                                                 else x * 3 + 1) x)
