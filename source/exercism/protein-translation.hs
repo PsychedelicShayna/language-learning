@@ -56,5 +56,4 @@ proteins (x : y : z : xs)
   where
     continue x = liftM2 (:) (Just x) (proteins xs)
     codon = x : y : z : ""
-    (<:>) = liftM2 (:)
 proteins _ = Just []
