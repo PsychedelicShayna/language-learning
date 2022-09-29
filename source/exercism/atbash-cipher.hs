@@ -33,3 +33,6 @@ encode plainText =
         | i `mod` 5 == 0 && i /= length cipherText = x : ' ' : acc
         | otherwise = x : acc
    in foldr formatSpaces "" $ zip [1 ..] cipherText
+
+
+
