@@ -1,0 +1,35 @@
+{
+  "blurb": "Implement a simple shift cipher like Caesar and a more secure substitution cipher",
+  "authors": [
+    "etrepum"
+  ],
+  "contributors": [
+    "AndrewKvalheim",
+    "chivalry",
+    "hamstap85",
+    "iHiD",
+    "kytrinyx",
+    "lpalma",
+    "N-Parsons",
+    "petertseng",
+    "ppartarr",
+    "rbasso",
+    "rpottsoh",
+    "sshine",
+    "tejasbubane"
+  ],
+  "files": {
+    "solution": [
+      "src/Cipher.hs",
+      "package.yaml"
+    ],
+    "test": [
+      "test/Tests.hs"
+    ],
+    "example": [
+      ".meta/examples/success-standard/src/Cipher.hs"
+    ]
+  },
+  "source": "Substitution Cipher at Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Substitution_cipher"
+}
