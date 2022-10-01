@@ -1,2 +1,3 @@
-# [Haskell Track on Exercism](https://exercism.org/tracks/haskell)
-* [Testing on the Haskell track](https://exercism.org/docs/tracks/haskell/tests)
+# Haskell Track on Exercism
+* [Visit the track](https://exercism.org/tracks/haskell)
+* [Running Haskell tests from Exercism](https://exercism.org/docs/tracks/haskell/tests)
